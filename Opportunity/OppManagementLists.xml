@@ -1,0 +1,68 @@
+﻿<Lists>
+    <List Name="AppSettings" Type="genericlist">
+    <Fields>
+        <Field Type="Choice"  DisplayName="Category"  Description="Category"  Required="FALSE"  EnforceUniqueValues="FALSE" Format="Dropdown" Indexed="FALSE" ID="{3a30c424-a3dc-4aed-9dee-a17cadb484a7}" StaticName="Category" Name="Category"><Default></Default><CHOICES><CHOICE>Action Plan</CHOICE><CHOICE>Action Plan</CHOICE><CHOICE>General</CHOICE></CHOICES></Field>
+        <Field Type="Text"  DisplayName="Value" Description="Value"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{6e312690-781e-41c7-9c73-2a96f1ce40ec}" StaticName="Value" Name="Value"></Field>
+    </Fields>
+    </List>
+    <List Name="Categories" Type="genericlist">
+    <Fields>
+    </Fields>
+    </List>
+    <List Name="Countries" Type="genericlist">
+    <Fields>
+        <Field Type="Text"  DisplayName="Region" Description="Region"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{3d9c88ba-2562-4018-b8f8-35296dd8c1e9}" StaticName="Region" Name="Region"></Field>
+    </Fields>
+    </List>
+    <List Name="Customers" Type="genericlist">
+    <Fields>
+        <Field Type="Text"  DisplayName="AbbrName" Description="AbbrName"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{8848bafc-2529-45d8-a262-dbf5a74e280d}" StaticName="AbbrName" Name="AbbrName"></Field>
+        <Field Type="Text"  DisplayName="Industry" Description="Industry"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{539e6b8f-5991-4099-b78e-72b201a07f55}" StaticName="Industry" Name="Industry"></Field>
+        <Field Type="Text"  DisplayName="Region" Description="Region"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{521a47b1-8064-40ec-a44d-0d3e6486864c}" StaticName="Region" Name="Region"></Field>
+        <Field Type="Text"  DisplayName="Country" Description="Country"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{d85e38ea-31e4-4caf-90ab-f159d3af644d}" StaticName="Country" Name="Country"></Field>
+        <Field Type="Boolean"  DisplayName="Prioritized"  Description="Prioritized"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"  ID="{fe0fa3ce-2cdf-4584-8dee-ebf4f23d4d1e}" StaticName="Prioritized" Name="Prioritized"><Default>FALSE</Default></Field>
+        <Field Type="Text"  DisplayName="AE" Description="AE"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{481f9c84-977c-4261-96fb-4b5f1b590b8f}" StaticName="AE" Name="AE"></Field>
+        <Field Type="Text"  DisplayName="AE_Email" Description="AE_Email"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{185207fe-4259-41f1-87d2-56078900edad}" StaticName="AE_Email" Name="AE_Email"></Field>
+        <Field Type="Text"  DisplayName="SS" Description="SS"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{12e9e285-a77e-45dd-9e23-b68fad782553}" StaticName="SS" Name="SS"></Field>
+        <Field Type="Text"  DisplayName="SS_Email" Description="SS_Email"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{f32c2b75-c397-4c65-88ad-5118d84b15aa}" StaticName="SS_Email" Name="SS_Email"></Field>
+        <Field Type="Text"  DisplayName="SDR" Description="SDR"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{2898aae8-0ef1-4c2f-bad2-c0e231e9d5dd}" StaticName="SDR" Name="SDR"></Field>
+        <Field Type="Text"  DisplayName="SDR_Email" Description="SDR_Email"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{31055291-d4ac-4d4b-bf53-ce9cb03969bd}" StaticName="SDR_Email" Name="SDR_Email"></Field>
+        <Field Type="Text"  DisplayName="SM" Description="SM"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{147cb7d5-9eb7-41ef-9bd3-46c07b59089f}" StaticName="SM" Name="SM"></Field>
+        <Field Type="Text"  DisplayName="SM_Email" Description="SM_Email"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{6c51bd39-0762-4e43-aee0-cb70d04d3064}" StaticName="SM_Email" Name="SM_Email"></Field>
+        <Field Type="Text"  DisplayName="CSR" Description="CSR"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{760c3c86-c02d-4620-a1a4-9ff1c30175d1}" StaticName="CSR" Name="CSR"></Field>
+        <Field Type="Text"  DisplayName="CSR_Email" Description="CSR_Email"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{fc6e138e-f631-412e-9bba-23103d93bac6}" StaticName="CSR_Email" Name="CSR_Email"></Field>
+    </Fields>
+    </List>
+    <List Name="Industries" Type="genericlist">
+    <Fields>
+    </Fields>
+    </List>
+    <List Name="Opportunities" Type="genericlist">
+    <Fields>
+        <Field Type="Text"  DisplayName="Customer" Description="Customer"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{8e00615b-38f2-4cef-b780-340981b2fdd5}" StaticName="Customer" Name="Customer"></Field>
+        <Field Type="Text"  DisplayName="Status" Description="Status"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{4b53b992-f36c-407a-bdd5-b4137f581926}" StaticName="Status" Name="Status"></Field>
+        <Field Type="Note"  DisplayName="OpptDescription"  Description="OpptDescription"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   NumLines="6" ID="{382286f0-f175-4810-926c-51e98ad8b303}" StaticName="OpptDescription" Name="OpptDescription"></Field>
+        <Field Type="Text"  DisplayName="OpptID" Description="OpptID"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{0aa31a58-8bd2-48a8-8caa-83eddbd93fe0}" StaticName="OpptID" Name="OpptID"></Field>
+        <Field Type="Note"  DisplayName="ActionLog"  Description="ActionLog"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   NumLines="6" ID="{5a52b59c-9018-4c32-8e96-915a70f1d2b4}" StaticName="ActionLog" Name="ActionLog"></Field>
+        <Field Type="Currency"  DisplayName="PotentialDealSize" Description="PotentialDealSize"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   Decimals="2" ID="{3ebc0591-c9df-4dd2-958b-1bc0a5e7fe13}" StaticName="PotentialDealSize" Name="PotentialDealSize"></Field>
+        <Field Type="Note"  DisplayName="OpptComments"  Description="OpptComments"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   NumLines="6" ID="{da4e6095-2361-47e4-9623-134f85450fc7}" StaticName="OpptComments" Name="OpptComments"></Field>
+        <Field Type="Text"  DisplayName="OpptStage" Description="OpptStage"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   MaxLength="255" ID="{2897cd65-9b4c-4551-8dd7-fe9ac17c67a6}" StaticName="OpptStage" Name="OpptStage"></Field>
+    </Fields>
+    </List>
+    <List Name="Opportunity Stage" Type="genericlist">
+    <Fields>
+        <Field Type="Number"  DisplayName="Order"  Description="Order"  Required="FALSE"  EnforceUniqueValues="FALSE"  Indexed="FALSE"   Min="0" Max="100" Decimals="0" ID="{52f92dd4-e9ba-4dd3-a06b-5cc87cb452db}" StaticName="Order" Name="Order"></Field>
+    </Fields>
+    </List>
+    <List Name="Regions" Type="genericlist">
+    <Fields>
+    </Fields>
+    </List>
+    <List Name="Status" Type="genericlist">
+    <Fields>
+    </Fields>
+    </List>
+</Lists>
+
+
+
